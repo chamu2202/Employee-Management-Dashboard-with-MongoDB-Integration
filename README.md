@@ -11,9 +11,13 @@ Display employees in a clean, paginated table
 Tech Stack
 
 Backend( Node.js, Express.js, MongoDB, Mongoose)
+
 Frontend( ReactJS (functional components with hooks)
+
 Database( MongoDB (local or MongoDB Atlas)
+
 UI Library( Ant Design for components)
+
 Data Grid( AG Grid for table functionality)
 HTTP Client( Axios for API communication)
 Environment( Use environment variables for database connection)
