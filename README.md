@@ -19,9 +19,13 @@ Database( MongoDB (local or MongoDB Atlas)
 UI Library( Ant Design for components)
 
 Data Grid( AG Grid for table functionality)
+
 HTTP Client( Axios for API communication)
+
 Environment( Use environment variables for database connection)
+
 Error Handling( Implement proper error handling on both frontend and backend)
+
 Responsive Design( Ensure the application works on different screen sizes)
 
 Getting Started
@@ -29,13 +33,15 @@ Getting Started
 Follow these steps to run the project locally:
 
 Clone this repository
+
+
 git clone https://github.com/yourusername/employee-management-dashboard.git
+
 Run the Server using for backend(--npm install,npm run dev),for frontend(--npm install, npm start)
-![Dashboard Screenshot](Getting Started
 
-Follow these steps to run the project locally:
+![Dashboard Screenshot](public/EmployeeManagemnt-Dashboard.png)
 
-1.Clone this repository
-git clone https://github.com/yourusername/employee-management-management.git
-Run the Server using --npm install, npm start
-![Dashboard Screenshot](public/EmployeeManagemnt-Dashboard.png))
+
+
+
+
