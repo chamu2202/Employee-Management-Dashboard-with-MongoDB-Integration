@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+/* AG Grid customization */
+.ag-theme-alpine {
+  --ag-header-background-color: #f0f2f5;
+  --ag-header-foreground-color: #262626;
+  --ag-odd-row-background-color: #fafafa;
+  --ag-row-hover-color: #e6f7ff;
+  --ag-selected-row-background-color: #bae7ff;
+}
+
+/* Ant Design customization */
+.ant-btn {
+  border-radius: 6px;
+}
+
+.ant-modal {
+  border-radius: 8px;
+}
+
+.ant-layout-header {
+  line-height: 64px;
+}
+
+/* Custom responsive design */
+@media (max-width: 768px) {
+  .ag-theme-alpine {
+    height: 400px;
+  }
+  
+  .ant-layout-content {
+    padding: 16px;
+  }
+}
