@@ -7,6 +7,7 @@ Edit existing employee details
 Delete employees with confirmation
 Display employees in a clean, paginated table
 
+
 Tech Stack
 
 Backend( Node.js, Express.js, MongoDB, Mongoose)
@@ -30,7 +31,7 @@ Run the Server using for backend(--npm install,npm run dev),for frontend(--npm i
 
 Follow these steps to run the project locally:
 
-Clone this repository
+1.Clone this repository
 git clone https://github.com/yourusername/employee-management-management.git
 Run the Server using --npm install, npm start
 ![Dashboard Screenshot](public/EmployeeManagemnt-Dashboard.png))
