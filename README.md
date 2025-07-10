@@ -1,4 +1,6 @@
 <img width="1458" height="785" alt="Employee-management-system" src="https://github.com/user-attachments/assets/7a5f3b75-4489-4304-95cb-33c562796d6b" />
+
+
 A simple React-based web application to manage employee records.
 This project lets you add, edit, and delete employees, using Ant Design components for the user interface and React for managing state.
 Features
@@ -10,23 +12,23 @@ Display employees in a clean, paginated table
 
 Tech Stack
 
-Backend( Node.js, Express.js, MongoDB, Mongoose)
+- Backend( Node.js, Express.js, MongoDB, Mongoose)
 
-Frontend( ReactJS (functional components with hooks)
+- Frontend( ReactJS (functional components with hooks)
 
-Database( MongoDB (local or MongoDB Atlas)
+- Database( MongoDB (local or MongoDB Atlas)
 
-UI Library( Ant Design for components)
+- UI Library( Ant Design for components)
 
-Data Grid( AG Grid for table functionality)
+- Data Grid( AG Grid for table functionality)
 
-HTTP Client( Axios for API communication)
+- HTTP Client( Axios for API communication)
 
-Environment( Use environment variables for database connection)
+- Environment( Use environment variables for database connection)
 
-Error Handling( Implement proper error handling on both frontend and backend)
+- Error Handling( Implement proper error handling on both frontend and backend)
 
-Responsive Design( Ensure the application works on different screen sizes)
+- Responsive Design( Ensure the application works on different screen sizes)
 
 Getting Started
 
