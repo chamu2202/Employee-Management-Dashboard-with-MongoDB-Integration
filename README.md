@@ -32,9 +32,9 @@ Getting Started
 
 Follow these steps to run the project locally:
 
-Clone this repository
+1.**Clone this repository**
 
-
+```bash
 git clone https://github.com/yourusername/employee-management-dashboard.git
 
 Run the Server using for backend(--npm install,npm run dev),for frontend(--npm install, npm start)
