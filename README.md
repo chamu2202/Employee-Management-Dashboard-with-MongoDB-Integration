@@ -46,7 +46,7 @@ Follow these steps to run the project locally:
 1.**Clone this repository**
 
 Backend Setup
-bash
+```bash
 cd backend
 npm install
  Create a .env file in backend/ with content:
@@ -55,7 +55,7 @@ npm start
 frontend Setup
 (cd frontend, npm start)
 
-bash
+```bash
 git clone https://github.com/yourusername/employee-management-dashboard.git
 
 Run the Server using for backend(cd backend,npm run dev),for frontend(cd frontend, npm start)
