@@ -1,4 +1,4 @@
-![Uploading Employee-Management-System.png…]()
+<img src="images/Employee-Management-System.png" width="600" />
 
 
 
