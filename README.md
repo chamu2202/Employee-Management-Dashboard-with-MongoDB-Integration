@@ -1,4 +1,4 @@
-<img src="images/Employee-Management-System.png" width="600" />
+<img src="Desktop/React-course/employee-dashboard/employee-management/frotend/public/Employee-Management-System.png" width="600" />
 
 
 
