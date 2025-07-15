@@ -3,6 +3,14 @@
 A simple React-based web application to manage employee records.
 This project lets you add, edit, and delete employees, using Ant Design components for the user interface and React for managing state.
 
+Objective
+
+To create an interactive Employee Management Dashboard that:
+- Stores employee data in MongoDB
+- Displays data using AG Grid
+- Allows adding, editing, deleting, and filtering employees
+- Includes real-time search, pagination, and sorting
+
 Features
 
 Add new employees with fields: Name, Department, Role, Salary, Status
@@ -36,6 +44,16 @@ Getting Started
 Follow these steps to run the project locally:
 
 1.**Clone this repository**
+
+Backend Setup
+```bash
+cd backend
+npm install
+# Create a .env file in backend/ with content:
+# MONGODB_URI=mongodb://localhost:27017/employeesdb
+npm start
+frontend Setup
+(cd frontend, npm start)
 
 ```bash
 git clone https://github.com/yourusername/employee-management-dashboard.git
