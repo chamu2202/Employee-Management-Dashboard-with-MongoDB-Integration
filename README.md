@@ -5,6 +5,7 @@ A simple React-based web application to manage employee records.
 This project lets you add, edit, and delete employees, using Ant Design components for the user interface and React for managing state.
 
 Features
+
 Add new employees with fields: Name, Department, Role, Salary, Status
 Edit existing employee details
 Delete employees with confirmation
