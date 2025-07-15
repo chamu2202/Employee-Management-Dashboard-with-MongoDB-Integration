@@ -1,4 +1,5 @@
-<img src="Desktop/React-course/employee-dashboard/employee-management/frotend/public/Employee-Management-System.png" width="600" />
+![Employee Management System](https://raw.githubusercontent.com/yourusername/employee-dashboard/main/images/Employee-Management-System.png)
+
 
 
 
