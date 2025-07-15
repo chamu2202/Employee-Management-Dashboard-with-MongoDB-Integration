@@ -1,7 +1,4 @@
-![Employee Management System](https://raw.githubusercontent.com/yourusername/employee-dashboard/main/images/Employee-Management-System.png)
-
-
-
+<img width="1899" height="762" alt="Employee-Management-System" src="https://github.com/user-attachments/assets/53d1e1ba-ae57-49b4-9e93-5c40c005301f" />
 
 A simple React-based web application to manage employee records.
 This project lets you add, edit, and delete employees, using Ant Design components for the user interface and React for managing state.
