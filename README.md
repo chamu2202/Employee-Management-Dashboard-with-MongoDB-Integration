@@ -1,4 +1,5 @@
-<img width="1458" height="785" alt="Employee-management-system" src="https://github.com/user-attachments/assets/7a5f3b75-4489-4304-95cb-33c562796d6b" />
+![Uploading Employee-Management-System.png…]()
+
 
 
 A simple React-based web application to manage employee records.
