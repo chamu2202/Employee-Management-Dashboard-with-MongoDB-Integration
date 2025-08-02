@@ -26,11 +26,16 @@ router.get('/:id', async (req, res) => {
 // POST create new employee
 router.post('/', async (req, res) => {
   try {
+    debugger
     const newEmployee = new Employee(req.body);
     await newEmployee.save();
     res.status(201).json(newEmployee);
-  } catch (err) {
-    res.status(400).json({ message: 'Error creating employee', error: err });
+  }catch (error) {
+    console.error('Error creating employee:', error); // 👈 log real error
+    res.status(400).json({
+      message: 'Error creating employee',
+      error: error.message || error,
+    });
   }
 });
 

@@ -113,34 +113,74 @@ process.on('unhandledRejection', (reason, promise) => {
 process.on('uncaughtException', (err) => {
   console.error('Uncaught Exception thrown:', err);
 });
+// require('dotenv').config();
+// import express from 'express';
+// import dotenv from 'dotenv';
+// import mongoose from 'mongoose';
+// import employeeRoutes from './routes/employees.js';
+// const cors = require('cors'); // <-- import cors
 
-import express from 'express';
-import dotenv from 'dotenv';
-import mongoose from 'mongoose';
-import employeeRoutes from './routes/employees.js';
-
-{/*MongoClient.connect(process.env.MONGODB_URI)
-.then(()=> {
-  console.log("MongoDB connected succesfully")
-})
-.catch((error)=> {
-  console.log("Error, error")
-}) */}
+// {/*MongoClient.connect(process.env.MONGODB_URI)
+// .then(()=> {
+//   console.log("MongoDB connected succesfully")
+// })
+// .catch((error)=> {
+//   console.log("Error, error")
+// }) */}
  
 
-dotenv.config();
+// dotenv.config();
+// // Use CORS middleware
+
+// const app = express();
+// app.use(cors({
+//   origin: 'http://localhost:3000', // ✅ Allow your frontend origin
+//   credentials: true
+// }));
+
+// app.use(express.json());
+
+// // Add your API route
+// app.use('/api/employees', employeeRoutes);
+
+// const PORT = process.env.PORT || 5000;
+
+// app.listen(PORT, () => {
+//   console.log(`Server running on port ${PORT}`);
+// });  
+
+import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// These lines allow you to resolve __dirname in ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Load .env from the root folder
+dotenv.config({ path: path.resolve(__dirname, '../.env') });
+
+import express from 'express';
+import cors from 'cors';
+import employeeRoutes from './routes/employees.js';
+
+import connectDB from './config/database.js';
+connectDB();
 
 const app = express();
 
+app.use(cors({
+  origin: 'http://localhost:3000',
+  credentials: true
+}));
+
 app.use(express.json());
 
-// Add your API route
 app.use('/api/employees', employeeRoutes);
 
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-});  
-
+});
 
